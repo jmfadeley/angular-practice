@@ -1,0 +1,12 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+
+  :hover {
+    opacity: 1;
+  }
+
+  input {
+    width: 20%;
+  }
+}
