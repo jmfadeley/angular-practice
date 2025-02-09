@@ -1,12 +1,12 @@
 import { Component, computed, EventEmitter, Input,  Output } from '@angular/core';
 
 @Component({
-  selector: 'slider',
-  templateUrl: './slider.component.html',
-  styleUrl: './slider.component.scss'
+  selector: 'slider-alpha',
+  templateUrl: './slider-alpha.component.html',
+  styleUrl: './slider-alpha.component.scss'
 })
 
-export class Slider {
+export class SliderAlpha {
   // Approach A: Inputs come in from parent, emits call to parent to update. 
   @Input() parentValue: number = 0; // Default overriden by parent component.
   @Output() updateParentValue: EventEmitter<number> = new EventEmitter<number>();
