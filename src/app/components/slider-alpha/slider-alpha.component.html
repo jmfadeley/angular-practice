@@ -1,6 +1,7 @@
 <div class="slider">
+  <h2>Slider Alpha</h2>
   <label for="parent_slider">parentValue: {{parentValue}}</label>
   <input id="parent_slider" type="range" min="1" max="100" [value]="parentValue" (input)="onParentSliderChange($event)"/>
-  <!-- <label for="child_slider">{{label()}}</label>
-  <input id="child_slider" type="range" min="1" max="100" [value]="internalValue()"/> -->
+  <label for="child_slider">childValue: {{childValue}}</label>
+  <input id="child_slider" type="range" min="1" max="100" [value]="childValue" (input)="onChildSliderChange($event)"/>
 </div>
