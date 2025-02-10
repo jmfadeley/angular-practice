@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
   styleUrl: 'text-field.component.scss'
 })
 export class TextField {
-
+  
 }

@@ -1,0 +1,7 @@
+<div>
+  <h2>Slider Beta</h2>
+  <label for="one_way_slider">oneWayValue: {{oneWayValue}}</label>
+  <input id="one_way_slider" type="range" min="1" max="100" [(value)]="oneWayValue" (change)="onOneWayValueChange($event)"/>
+  <label for="two_way_slider">twoWayValue: {{twoWayValue}}</label>
+  <input id="two_way_slider" type="range" min="1" max="100" [(value)]="twoWayValue" (change)="onTwoWayValueChange($event)"/>
+</div>
